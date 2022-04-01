@@ -258,3 +258,29 @@ body {
     float: right;
 }
 
+/* Stile sezione contatti partner */
+.partner-img {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.partner-text {
+    float: right;
+    width: 45%;
+}
+
+.partner-text *{
+    margin-top: 4vh;
+}
+
+.partner-text h3 {
+    font-size: 2em;
+}
+
+.button.partner {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
