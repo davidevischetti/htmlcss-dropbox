@@ -160,8 +160,7 @@ body {
     float: left;
     width: 30%;
     border: 2px solid #ccc;
-    /* debug */
-    height: 1000px;
+    height: 130vh;
 }
 
 .column.margin {
@@ -178,6 +177,61 @@ body {
 .plan {
     width: 80%;
     margin: 10% auto;
-    line-height: 1.5em;
 }
 
+.plan *{
+    margin-bottom: 2vh;
+}
+.plan h3 {
+    font-size: 1.5em;
+}
+
+.plan h6 {
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    color: #999;
+}
+
+.plan .data {
+    width: 100%;
+    font-size: 0.75em;
+}
+
+.data i {
+    display: inline-block;
+    width: 7%;
+    margin-top: 0.25em;
+    float: left;
+}
+
+.data span {
+    display: inline-block;
+    width: 93%;
+    float: left;
+}
+
+.trial {
+    margin: 4vh 0;
+}
+
+.buy-now span {
+    display: inline-block;
+    height: 50px;
+    border-bottom: 2px solid #ccc;
+}
+
+.buy-now a {
+    color: #0061ff;
+}
+
+.plan h4 {
+    margin-top: 4vh;
+}
+
+.plan ul {
+    list-style-type: none;   
+}
+
+.plan ul li i {
+    color: #0061ff;
+}
