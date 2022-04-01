@@ -86,6 +86,7 @@ body {
     height: 75vh;
     background-color: #b4d0e7;
     padding: 4% 10%;
+    margin-bottom: 20vh;
 }
 
 #hero h1 {
@@ -338,5 +339,15 @@ footer {
 #foot ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 0.75em;
+}
+
+/* Stile lingue footer */
+.leng {
+    color: #999;
+    border-top: 1px solid #999;
+    padding-top: 3vh;
+    margin-top: 10vh;
+    width: max-content;
     font-size: 0.75em;
 }
