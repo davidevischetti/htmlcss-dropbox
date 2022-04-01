@@ -298,3 +298,22 @@ body {
     font-size: 1.5em;
     margin-bottom: 2vh;
 }
+
+/* Stile sezione FAQ */
+.faq h3 {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc; 
+}
+
+.faq h5 {
+    line-height: 5em;
+    border-bottom: 1px solid #ccc; 
+    position: relative;
+}
+
+.faq i {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
