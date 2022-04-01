@@ -125,7 +125,7 @@ body {
 /* Stile contenuto */
 .container {
     width: 60%;
-    margin: 20vh auto;
+    margin: 10vh auto;
 }
 
 .container h2 {
@@ -181,7 +181,7 @@ body {
 /* Stile testo tabelle piani tariffari */
 .plan {
     width: 80%;
-    height: 135vh;
+    min-height: 120vh;
     margin: 10% auto;
 }
 
@@ -245,7 +245,7 @@ body {
 /* Stile tabella contatti info prezzi */
 .plan.special {
     width: 94%;
-    height: 10vh;
+    min-height: 10vh;
     margin: 2% auto;
 }
 
@@ -284,3 +284,17 @@ body {
     border: 1px solid #000;
 }
 
+/* Stile sezione funzionalita */
+.column.box {
+    border: none;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box h3 {
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
