@@ -149,8 +149,8 @@ body {
     border: 4px solid #0061ff;
 }
 
-#check-2 {
-    margin-left: 5vw;
+.checkbox span {
+    margin-right: 3vw;
 }
 
 /* Stile tabelle piani tariffari */
@@ -159,23 +159,29 @@ body {
     margin-top: 5vh;
     float: left;
     width: 30%;
-    border: 2px solid #ccc;
-    height: 130vh;
+    border: 1px solid #ccc;
+    /* height: 130vh; */
 }
 
 .column.margin {
     margin: 5vh 5%;
 }
 
+.column.special {
+    margin-top: 0;
+    width: 100%;
+}
+
 .column > h5 {
     text-align: center;
     line-height: 2em;
-    border-bottom: 2px solid #ccc;   
+    border-bottom: 1px solid #ccc;   
 }
 
 /* Stile testo tabelle piani tariffari */
 .plan {
     width: 80%;
+    height: 135vh;
     margin: 10% auto;
 }
 
@@ -183,7 +189,7 @@ body {
     margin-bottom: 2vh;
 }
 .plan h3 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .plan h6 {
@@ -217,7 +223,7 @@ body {
 .buy-now span {
     display: inline-block;
     height: 50px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .buy-now a {
@@ -235,3 +241,20 @@ body {
 .plan ul li i {
     color: #0061ff;
 }
+
+/* Stile tabella contatti info prezzi */
+.plan.special {
+    width: 94%;
+    height: 10vh;
+    margin: 2% auto;
+}
+
+.plan.special p {
+    margin-top: 3vh;
+    font-size: 0.80em;
+}
+
+.plan.special .contact {
+    float: right;
+}
+
