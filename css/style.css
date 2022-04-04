@@ -34,6 +34,23 @@ body {
     background-color: #0061ff;
 }
 
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 5vh;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
 /* Stile header */
 
 /* Stile barra di navigazione */
@@ -45,15 +62,11 @@ body {
 #nav {
     width: 100%;
     line-height: 8vh;
-    background-color: #fff;
     vertical-align: middle;
+    background-color: #fff;
     padding: 0 2%;  
     position: fixed;
     z-index: 999;
-}
-
-#nav ul {
-    list-style-type: none;
 }
 
 #nav ul li {
@@ -70,12 +83,10 @@ body {
 }
 
 #nav .button {
-    background-color: #0061ff;
     color: #fff;
 }
 
 #nav .logo {
-    float: left;
     height: 4vh;
     margin: 2vh 0;
     object-fit: none;
@@ -84,7 +95,6 @@ body {
 /* Stile hero */
 #hero {
     width: 100%;
-    height: 75vh;
     background-color: #b4d0e7;
     padding: 4% 10%;
     margin-bottom: 20vh;
@@ -95,29 +105,24 @@ body {
     margin-bottom: 4vh;
 }
 
-#hero .left {
-    width: 30%;
+.hero-text {
+    width: 25%;
 }
-
-#hero .right {
-    width: 60%;
-    position: relative;
-}
-
-#hero p {
-    margin-top: 2vh;
-    margin-bottom: 4vh;
+.hero-img {
+    width: 65%;
+    margin-bottom: -10%;
 }
 
 #hero img {
-    margin-top: 2vh;
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
+}
+
+.button.start {
+    margin: 4vh auto;
 }
 
 .fa-arrow-down {
+    margin-top: 4vh;
     font-size: 3em;
     color: #000;
 }
@@ -126,11 +131,6 @@ body {
 .container {
     width: 60%;
     margin: 10vh auto;
-}
-
-.container h2 {
-    font-size: 2.5em;
-    margin-bottom: 5vh;
 }
 
 /* Stile checkbox */
@@ -154,13 +154,10 @@ body {
 }
 
 /* Stile tabelle piani tariffari */
-
 .column {
     margin-top: 5vh;
-    float: left;
     width: 30%;
     border: 1px solid #ccc;
-    /* height: 130vh; */
 }
 
 .column.margin {
@@ -188,14 +185,15 @@ body {
 .plan *{
     margin-bottom: 2vh;
 }
-.plan h3 {
-    font-size: 2em;
-}
 
 .plan h6 {
     margin-top: 2vh;
     margin-bottom: 4vh;
     color: #999;
+}
+
+.plan ul li i {
+    color: #0061ff;
 }
 
 .plan .data {
@@ -204,14 +202,12 @@ body {
 }
 
 .data i {
-    width: 7%;
+    width: 10%;
     margin-top: 0.25em;
-    float: left;
 }
 
 .data span {
-    width: 93%;
-    float: left;
+    width: 90%;
 }
 
 .trial {
@@ -220,23 +216,11 @@ body {
 
 .buy-now span {
     display: inline-block;
-    height: 50px;
+    padding-bottom: 4vh;
     border-bottom: 1px solid #ccc;
 }
 
 .buy-now a {
-    color: #0061ff;
-}
-
-.plan h4 {
-    margin-top: 4vh;
-}
-
-.plan ul {
-    list-style-type: none;   
-}
-
-.plan ul li i {
     color: #0061ff;
 }
 
@@ -252,28 +236,18 @@ body {
     font-size: 0.80em;
 }
 
-.plan.special .contact {
-    float: right;
-}
-
 /* Stile sezione contatti partner */
 .partner-img {
-    float: left;
     width: 50%;
     height: auto;
 }
 
 .partner-text {
-    float: right;
     width: 45%;
 }
 
 .partner-text *{
     margin-top: 4vh;
-}
-
-.partner-text h3 {
-    font-size: 2em;
 }
 
 .button.partner {
@@ -283,16 +257,15 @@ body {
 }
 
 /* Stile sezione funzionalita */
-.column.box {
+#features .column {
     border: none;
 }
 
-.box img {
+#features .column img {
     width: 100%;
-    height: auto;
 }
 
-.box h3 {
+#features .column h4 {
     font-size: 1.5em;
     margin-bottom: 2vh;
 }
@@ -302,28 +275,25 @@ body {
     width: 100%;
 }
 
-#carousel .container a {
-    color: #0061ff;
-}
-
-#carousel .clients {
+#carousel .carousel-container {
     width: 100%;
     background-color: #f5f5f5;
 }
 
+#carousel .container a {
+    color: #0061ff;
+}
+
 /* Stile presentazioni */
 #carousel .main-part {
-    float: left;
-    width: 40vw;
-    max-height: 100vh;
-    padding: 2% 4%;
+    width: calc(100% - (12vw * 4));
+    padding: 3% 3%;
 }
 
 .main-part img {
     width: 25%;
-    height: auto;
-    padding-bottom: 5vh;
-    margin-bottom: 5vh;
+    padding-bottom: 4vh;
+    margin-bottom: 4vh;
     border-bottom: 1px solid #ccc;
 }
 
@@ -332,29 +302,19 @@ body {
 }
 
 /* Stile loghi */
-#carousel .small-part{
+#carousel .side-part{
     width: 12vw;
-    height: 24vw;
+    height: calc(12vw * 2);
 }
 
-.small-part.float-left {
-    float: left;
-}
-
-.small-part.float-right {
-    float: right;
-}
-
-.small-part .client-logo {
+.client-logo {
     width: 100%;
     height: 50%;
-
     text-align: center;
 }
 
 .client-logo img {
-    width: 60%;
-    height: auto;
+    width: 50%;
     margin-top: 50%;
     transform: translate(0, -50%);
     filter: invert(100%);
@@ -396,18 +356,16 @@ body {
 .join {
     background-color: #b4d0e7;
     width: 100%;
-    padding: 8% 16%;
+    padding: 5% 15%;
 }
 
 .join h2 {
-    float: left;
-    font-size: 2.5em;
     color: #61082b;
     width: 50%;
+    margin: 0 auto;
 }
 
 .join .button {
-    float: right;
     color: #000;
     background-color: #fff;
 }
@@ -443,14 +401,12 @@ footer {
 }
 
 #foot ul {
-    list-style-type: none;
-    float: left;
     width: 20%;
     color: #fff;
     line-height: 1.5em;
 }
 
-#foot ul li h3 {
+#foot ul li h4 {
     margin-bottom: 2vh;
 }
 
