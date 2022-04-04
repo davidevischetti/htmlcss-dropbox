@@ -17,6 +17,15 @@ body {
     clear: both;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
 .button {
     display: inline-block;
     padding: 0.5em 1em;
@@ -72,14 +81,6 @@ body {
     object-fit: none;
 }
 
-#nav .left {
-    float: left;
-}
-
-#nav .right {
-    float: right;
-}
-
 /* Stile hero */
 #hero {
     width: 100%;
@@ -94,13 +95,11 @@ body {
     margin-bottom: 4vh;
 }
 
-#hero .float-left {
-    float: left;
+#hero .left {
     width: 30%;
 }
 
-#hero .float-right {
-    float: right;
+#hero .right {
     width: 60%;
     position: relative;
 }
@@ -309,10 +308,33 @@ body {
 
 #carousel .clients {
     width: 100%;
+    background-color: #f5f5f5;
 }
+
+/* Stile presentazioni */
+#carousel .main-part {
+    float: left;
+    width: 40vw;
+    max-height: 100vh;
+    padding: 2% 4%;
+}
+
+.main-part img {
+    width: 25%;
+    height: auto;
+    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-part p {
+    margin-bottom: 5vh;
+}
+
+/* Stile loghi */
 #carousel .small-part{
-    width: 25vh;
-    height: 50vh;
+    width: 12vw;
+    height: 24vw;
 }
 
 .small-part.float-left {
@@ -323,14 +345,10 @@ body {
     float: right;
 }
 
-#carousel .main-part {
-    float: left;
-    height: 48vh;
-}
-
 .small-part .client-logo {
     width: 100%;
     height: 50%;
+
     text-align: center;
 }
 
@@ -372,6 +390,26 @@ body {
 
 .client-logo.clear {
     background-color: #ffd830;
+}
+
+/* Stile sezione join */
+.join {
+    background-color: #b4d0e7;
+    width: 100%;
+    padding: 8% 16%;
+}
+
+.join h2 {
+    float: left;
+    font-size: 2.5em;
+    color: #61082b;
+    width: 50%;
+}
+
+.join .button {
+    float: right;
+    color: #000;
+    background-color: #fff;
 }
 
 /* Stile sezione FAQ */
