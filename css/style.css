@@ -298,6 +298,82 @@ body {
     margin-bottom: 2vh;
 }
 
+/* Stile carosello */
+#carousel {
+    width: 100%;
+}
+
+#carousel .container a {
+    color: #0061ff;
+}
+
+#carousel .clients {
+    width: 100%;
+}
+#carousel .small-part{
+    width: 25vh;
+    height: 50vh;
+}
+
+.small-part.float-left {
+    float: left;
+}
+
+.small-part.float-right {
+    float: right;
+}
+
+#carousel .main-part {
+    float: left;
+    height: 48vh;
+}
+
+.small-part .client-logo {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.client-logo img {
+    width: 60%;
+    height: auto;
+    margin-top: 50%;
+    transform: translate(0, -50%);
+    filter: invert(100%);
+}
+
+.client-logo.designit {
+    background-color: #a2d39b;
+}
+
+.client-logo.uf {
+    background-color: #0093ce;
+}
+
+.client-logo.asu {
+    background-color: #61082b;
+}
+
+.client-logo.topps {
+    background-color: #ff1c1c;
+}
+
+.client-logo.world {
+    background-color: #d5001f;
+}
+
+.client-logo.lonely {
+    background-color: #0d2481;
+}
+
+.client-logo.hearts {
+    background-color: #b4d0e7;
+}
+
+.client-logo.clear {
+    background-color: #ffd830;
+}
+
 /* Stile sezione FAQ */
 .faq h3 {
     padding-bottom: 2em;
@@ -334,6 +410,10 @@ footer {
     width: 20%;
     color: #fff;
     line-height: 1.5em;
+}
+
+#foot ul li h3 {
+    margin-bottom: 2vh;
 }
 
 #foot ul li a{
