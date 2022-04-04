@@ -11,7 +11,7 @@ body {
     font-weight: 600;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -310,13 +310,17 @@ h5 {
 .client-logo {
     width: 100%;
     height: 50%;
-    text-align: center;
+    /* text-align: center; */
+    position: relative;
 }
 
 .client-logo img {
     width: 50%;
-    margin-top: 50%;
-    transform: translate(0, -50%);
+    /* margin-top: 50%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     filter: invert(100%);
 }
 
